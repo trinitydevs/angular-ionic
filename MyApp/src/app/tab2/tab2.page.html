@@ -1,0 +1,39 @@
+
+<ion-content [fullscreen]="true">
+<img src="assets/header.avif" alt="">
+<br><br>
+<ion-input
+  type="name"
+  fill="solid"
+  label="Nome"
+  labelPlacement="floating"
+  errorText="Nome incompleto"
+  color="black"
+  ngModel
+  name
+></ion-input>
+<br>
+<ion-input
+  type="email"
+  fill="solid"
+  label="Email"
+  labelPlacement="floating"
+  errorText="Invalid email"
+  ngModel
+  email
+></ion-input>
+
+<ion-list style="background-color: #0c110d;">
+    <ion-select aria-label="Fruit" interface="popover" placeholder="Horário" style="background-color: #0c110d; color: white">
+      <ion-select-option value="apples">10h</ion-select-option>
+      <ion-select-option value="oranges">12h30</ion-select-option>
+      <ion-select-option value="bananas">17h</ion-select-option>
+    </ion-select>
+</ion-list>
+
+
+  <ion-button color="success">Enviar</ion-button>
+  <br><br><br>
+  <img id="coelho" src="assets/coelho.png" alt="">
+
+</ion-content>

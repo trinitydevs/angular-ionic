@@ -1,0 +1,48 @@
+img{
+  width: 15rem;
+}
+
+ion-content::part(background){
+  background-color: #0c110d;
+}
+
+p{
+  text-align: center;
+  bottom: 0;
+}
+
+ion-card {
+  --background: #f5f5f5;
+  --color: #428a7f;
+}
+
+ion-card-title {
+  --color: #2c362c;
+}
+
+ion-card-subtitle {
+  --color: #5fe25f;
+}
+
+ion-button{
+  margin-left: 4%;
+}
+
+ion-input{
+  width: 240px;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+ion-list{
+  margin-left: 5%;
+}
+
+#cadastro{
+  color: white;
+}
+
+#coelho{
+  width: 30%;
+}
+
